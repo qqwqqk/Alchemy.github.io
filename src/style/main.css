@@ -10,6 +10,7 @@ html {
 }
 
 body {
+    background-color: dimgray;
     margin: 0;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }

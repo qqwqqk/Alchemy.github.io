@@ -1,0 +1,816 @@
+{
+  "alchemy":[
+    {
+      "name" : "卡农",
+      "type" : "light",
+      "debut" : "1",
+      "thumbnail" : "dataset/images/thumbnail/卡农.png",
+      "role":{
+        "show" : "dataset/images/role_show/卡农.png"
+      },
+      "data":{
+        "glory" : "光荣骑士",
+        "style" :{
+          "atk":"7",
+          "brk":"7",
+          "dex":"7",
+          "def":"6",
+          "ast":"2",
+          "ctr":"3"
+        },
+        "evaluation":"强力输出"
+       },
+      "info":{
+        "star": "3",
+        "name": "卡农",
+        "type": "光",
+        "sex": "女",
+        "country": "安比利亚",
+        "category" : "圣石的追忆",
+        "height" : "",
+        "weight" : "",
+        "birthday": "7月16日",
+        "constellation" : "光摇笼之月",
+        "blood" : "Ki型",
+        "like" : "甜的东西，可爱的东西",
+        "interest": "大浴缸洗澡",
+        "describe" : "圣教骑士见习的超元气少女。巴贝尔圣教会养大的孤儿。因此，对于大陆的守护者“圣教骑士团”的憧憬比一般人强。对于炼金术没有什么自信，如果是宿舍里的争夺面包大战，她还是很有信心的。"
+      },
+      "gallery":{
+        "usually" : {"title" : "通常装扮" ,"img":"dataset/images/gallery/卡农.png" ,"show":"dataset/images/role_show/卡农.png"},
+        "youth":{"title" : "青年装扮" ,"img":"dataset/images/gallery/卡农_青年.png" ,"show":"dataset/images/role_show/卡农_青年.png"},
+        "conviction":{"title" : "真理念装" ,"img":"dataset/images/gallery/卡农_念装.png" ,"show":"dataset/images/role_show/卡农_念装.png"}
+      }
+    },
+    {
+      "name" : "卡达诺巴",
+      "type" : "fire",
+      "debut" : "2",
+      "thumbnail" : "dataset/images/thumbnail/卡达诺巴.png",
+      "role":{
+        "show" : "dataset/images/role_show/卡达诺巴.png"
+      },
+      "data":{
+        "glory" : "焰龙王",
+        "style" :{
+          "atk":"6",
+          "brk":"4",
+          "dex":"7",
+          "def":"8",
+          "ast":"2",
+          "ctr":"2"
+        },
+        "evaluation":"主力防守"
+      },
+      "info":{
+        "star": "5",
+        "name": "卡达诺巴",
+        "type": "火",
+        "sex": "男",
+        "country": "诺森布莱特",
+        "category" : "圣石的追忆",
+        "height" : "196cm",
+        "weight" : "86cm",
+        "birthday": "10月18日",
+        "constellation" : "火皇穹之月",
+        "blood" : "Kn型",
+        "like" : "辣味的料理",
+        "interest": "给有肌肉的人说教",
+        "describe" : "圣骑士教团·第4骑士团长，在大陆也是首屈一指的骑士。拥有非凡的炼金术才能，像缠绕着炎火一般站立在战场上，因此被人称为“焰龙王”。不论何时都能坚持贯彻自己正义理念的、拥有强大精神力的人。"
+      },
+      "gallery":{
+        "usually" : {"title" : "通常装扮" ,"img":"dataset/images/gallery/卡达诺巴.png","show":"dataset/images/role_show/卡达诺巴.png" }
+       }
+    },
+    {
+      "name" : "库达恩修坦",
+      "type" : "dark",
+      "debut" : "3",
+      "thumbnail" : "dataset/images/thumbnail/库达恩修坦.png",
+      "role":{
+        "show" : "dataset/images/role_show/库达恩修坦.png"
+      },
+      "data":{
+        "glory" : "魔斗枪鬼",
+        "style" :{
+          "atk":"9",
+          "brk":"9",
+          "dex":"5",
+          "def":"1",
+          "ast":"0",
+          "ctr":"2"
+        },
+        "evaluation":"高水平爆发"
+      },
+      "info":{
+        "star": "5",
+        "name": "库达恩修坦",
+        "type": "暗",
+        "sex": "男",
+        "country": "拉斯特里斯",
+        "category" : "圣石的追忆",
+        "height" : "182cm",
+        "weight" : "72cm",
+        "birthday": "12月7日",
+        "constellation" : "暗梦楼之月",
+        "blood" : "Qe型",
+        "like" : "没想到",
+        "interest": "没有什么",
+        "describe" : "圣教骑士团第四骑士团长的枪术士。在卡达诺巴死后，从副团长晋升为了团长。绵津见国灭亡时表现出帮助神乐的温柔的一面。但他追求力量，卡达诺巴觉得他容易被追求力量的欲望蒙蔽而黑化。"
+      },
+      "gallery":{
+        "usually" : {"title" : "通常装扮" ,"img":"dataset/images/gallery/库达恩修坦.png","show":"dataset/images/role_show/库达恩修坦.png" },
+        "Infernal" : {"title" : "狱暗装扮" ,"img":"dataset/images/gallery/库达恩修坦_狱暗.png","show":"dataset/images/role_show/库达恩修坦_狱暗.png" }
+      }
+    },
+    {
+      "name" : "神乐",
+      "type" : "fire",
+      "debut" : "4",
+      "thumbnail" : "dataset/images/thumbnail/神乐.png",
+      "role":{
+        "show" : "dataset/images/role_show/神乐.png"
+      },
+      "data":{
+        "glory" : "灼珠姬",
+        "style" :{
+          "atk":"6",
+          "brk":"4",
+          "dex":"4",
+          "def":"4",
+          "ast":"3",
+          "ctr":"3"
+        },
+        "evaluation":"有十戒特效"
+      },
+      "info":{
+        "star": "2",
+        "name": "神乐",
+        "type": "火",
+        "sex": "女",
+        "country": "绵津见国",
+        "category" : "圣石的追忆",
+        "height" : "cm",
+        "weight" : "cm",
+        "birthday": "4月1日",
+        "constellation" : "火炎王之月",
+        "blood" : "Pa型",
+        "like" : "笑容",
+        "interest": "观察野鸟",
+        "describe" : "绵津见出身的圣教骑士团·第四骑士团员。其实是绵津见王族的继承者，绵津见国在遭到格里特达伊克侵略时女王的女儿。即使一个人也要活下去。为了保护人们，为了变得更强，每天都在努力着。"
+      },
+      "gallery":{
+        "usually" : {"title" : "通常装扮" ,"img":"dataset/images/gallery/神乐.png","show":"dataset/images/role_show/神乐.png" },
+        "youth":{"title" : "青年装扮" ,"img":"dataset/images/gallery/神乐_青年.png","show":"dataset/images/role_show/神乐_青年.png" },
+        "conviction":{"title" : "真理念装" ,"img":"dataset/images/gallery/神乐_念装.png","show":"dataset/images/role_show/神乐_念装.png" }
+      }
+    },
+    {
+      "name" : "蒙泽因",
+      "type" : "thunder",
+      "debut" : "5",
+      "thumbnail" : "dataset/images/thumbnail/蒙泽因.png",
+      "role":{
+        "show" : "dataset/images/role_show/蒙泽因.png"
+      },
+      "data":{
+        "glory" : "刚斧猛将",
+        "style" :{
+          "atk":"6",
+          "brk":"6",
+          "dex":"5",
+          "def":"8",
+          "ast":"2",
+          "ctr":"1"
+        },
+        "evaluation":"防守大将"
+      },
+      "info":{
+        "star": "5",
+        "name": "蒙泽因",
+        "type": "雷",
+        "sex": "男",
+        "country": "安比利亚",
+        "category" : "圣石的追忆",
+        "height" : "210cm",
+        "weight" : "110cm",
+        "birthday": "5月20日",
+        "constellation" : "雷鸣帝之月",
+        "blood" : "Ki型",
+        "like" : "卡夫啤酒",
+        "interest": "露营",
+        "describe" : "圣教骑士团·第二骑士团副团长。因团长之位空缺，所以副团长就是下任团长。贯彻自己正义的骑士道、是个热心肠的男子。他巨大的身躯释放出的力量在战斗时表现的非常勇猛，值得信赖。"
+      },
+      "gallery":{
+        "usually" : {"title" : "通常装扮" ,"img":"dataset/images/gallery/蒙泽因.png","show":"dataset/images/role_show/蒙泽因.png" }
+      }
+    },
+    {
+      "name" : "赛达",
+      "type" : "wind",
+      "debut" : "6",
+      "thumbnail" : "dataset/images/thumbnail/赛达.png",
+      "role":{
+        "show" : "dataset/images/role_show/赛达.png"
+      },
+      "data":{
+        "glory" : "疾弓骑士",
+        "style" :{
+          "atk":"6",
+          "brk":"4",
+          "dex":"5",
+          "def":"3",
+          "ast":"4",
+          "ctr":"4"
+        },
+        "evaluation":"远程风队长"
+      },
+      "info":{
+        "star": "5",
+        "name": "赛达",
+        "type": "风",
+        "sex": "女",
+        "country": "撒加地方",
+        "category" : "圣石的追忆",
+        "height" : "cm",
+        "weight" : "cm",
+        "birthday": "2月20日",
+        "constellation" : "风女神之月",
+        "blood" : "Kn型",
+        "like" : "药草茶",
+        "interest": "织布",
+        "describe" : "圣教骑士团·第二骑士团员。撒加地方·艾里兹族长的孙子。凭借自己的射箭才能和识风的技能为武器、在骑士团中是数一数二的弓箭手。讨厌无效率的事情、经常和蒙泽因吵架。"
+      },
+      "gallery":{
+        "usually" : {"title" : "通常装扮" ,"img":"dataset/images/gallery/赛达.png","show":"dataset/images/role_show/赛达.png" }
+      }
+    },
+    {
+      "name" : "扎因",
+      "type" : "light",
+      "debut" : "7",
+      "thumbnail" : "dataset/images/thumbnail/扎因.png",
+      "role":{
+        "show" : "dataset/images/role_show/扎因.png"
+      },
+      "data":{
+        "glory" : "引导世界之光",
+        "style" :{
+          "atk":"7",
+          "brk":"7",
+          "dex":"7",
+          "def":"6",
+          "ast":"2",
+          "ctr":"4"
+        },
+        "evaluation":"主力输出"
+      },
+      "info":{
+        "star": "5",
+        "name": "扎因",
+        "type": "光",
+        "sex": "男",
+        "country": "安比利亚",
+        "category" : "圣石的追忆",
+        "height" : "186cm",
+        "weight" : "77cm",
+        "birthday": "1月13日",
+        "constellation" : "光骑士之月",
+        "blood" : "Kn型",
+        "like" : "酒煮牛肉",
+        "interest": "古文解读",
+        "describe" : "位于圣教骑士团顶点的光荣骑士。拥有强大的光芒，将拥有黑暗之力的战友卡达诺巴拉回了光明的世界。保护着饱受迫害的欧提玛和神乐，是重情义有包容心的人。"
+      },
+      "gallery":{
+        "usually" : {"title" : "通常装扮" ,"img":"dataset/images/gallery/扎因.png","show":"dataset/images/role_show/扎因.png" },
+        "conviction":{"title" : "真理念装" ,"img":"dataset/images/gallery/扎因_念装.png","show":"dataset/images/role_show/扎因_念装.png" }
+      }
+    },
+    {
+      "name" : "亚乌拉斯",
+      "type" : "water",
+      "debut" : "8",
+      "thumbnail" : "dataset/images/thumbnail/亚乌拉斯.png",
+      "role":{
+        "show" : "dataset/images/role_show/亚乌拉斯.png"
+      },
+      "data":{
+        "glory" : "双剑丽将",
+        "style" :{
+          "atk":"7",
+          "brk":"8",
+          "dex":"7",
+          "def":"3",
+          "ast":"2",
+          "ctr":"5"
+        },
+        "evaluation":"单体核弹"
+      },
+      "info":{
+        "star": "5",
+        "name": "亚乌拉斯",
+        "type": "水",
+        "sex": "女",
+        "country": "路斯特布鲁格",
+        "category" : "圣石的追忆",
+        "height" : "169cm",
+        "weight" : "56cm",
+        "birthday": "3月3日",
+        "constellation" : "水守神之月",
+        "blood" : "Kn型",
+        "like" : "蓝色系的小物件",
+        "interest": "拉伸",
+        "describe" : "圣教骑士团·第一骑士团长。是知性和美丽并存的用剑高手。骑士团里潜藏着众多她的粉丝，但本人自己却没发现。视卡达诺巴为对手的她，一直在追寻着他的脚步。"
+      },
+      "gallery":{
+        "usually" : {"title" : "通常装扮" ,"img":"dataset/images/gallery/亚乌拉斯.png","show":"dataset/images/role_show/亚乌拉斯.png" },
+        "swimwear" : {"title" : "泳装装扮" ,"img":"dataset/images/gallery/亚乌拉斯_泳装.png","show":"dataset/images/role_show/亚乌拉斯_泳装.png" }
+      }
+    },
+    {
+      "name" : "欧提玛",
+      "type" : "water",
+      "debut" : "9",
+      "thumbnail" : "dataset/images/thumbnail/欧提玛.png",
+      "role":{
+        "show" : "dataset/images/role_show/欧提玛.png"
+      },
+      "data":{
+        "glory" : "幻影法师",
+        "style" :{
+          "atk":"5",
+          "brk":"4",
+          "dex":"5",
+          "def":"5",
+          "ast":"4",
+          "ctr":"7"
+        },
+        "evaluation":"单发MA与专业辅助"
+      },
+      "info":{
+        "star": "5",
+        "name": "欧提玛",
+        "type": "水",
+        "sex": "男",
+        "country": "路斯特布鲁格",
+        "category" : "圣石的追忆",
+        "height" : "184cm",
+        "weight" : "73cm",
+        "birthday": "9月1日",
+        "constellation" : "水冰狼之月",
+        "blood" : "Pa型",
+        "like" : "睡眠",
+        "interest": "午睡",
+        "describe" : "圣教骑士团·第六骑士团长。因为有预知未来的力量，小时候被称为“恶魔之子”遭人忌恨追杀、被扎因救出后加入了骑士团。性格虽然轻薄而自我、但是炼金术之力十分优秀，是有过众多发明的天才。"
+      },
+      "gallery":{
+        "usually" : {"title" : "通常装扮" ,"img":"dataset/images/gallery/欧提玛.png","show":"dataset/images/role_show/欧提玛.png" },
+        "conviction":{"title" : "真理念装" ,"img":"dataset/images/gallery/欧提玛_念装.png","show":"dataset/images/role_show/欧提玛_念装.png" }
+      }
+    },
+    {
+      "name" : "缪娜",
+      "type" : "fire",
+      "debut" : "10",
+      "thumbnail" : "dataset/images/thumbnail/缪娜.png",
+      "role":{
+        "show" : "dataset/images/role_show/缪娜.png"
+      },
+      "data":{
+        "glory" : "匠锻师",
+        "style" :{
+          "atk":"5",
+          "brk":"4",
+          "dex":"5",
+          "def":"7",
+          "ast":"8",
+          "ctr":"2"
+        },
+        "evaluation":"防守辅助"
+      },
+      "info":{
+        "star": "5",
+        "name": "缪娜",
+        "type": "火",
+        "sex": "女",
+        "country": "斯洛斯修坦",
+        "category" : "圣石的追忆",
+        "height" : "154cm",
+        "weight" : "40cm",
+        "birthday": "4月21日",
+        "constellation" : "火炎王之月",
+        "blood" : "Qe型",
+        "like" : "锻冶的火花",
+        "interest": "拾取矿石",
+        "describe" : "锻造“王者之剑”的“克”一族的后裔。缪娜继承了自己父亲的技能，有着卓越的能力。虽然有感性的一面，但是一旦信赖后就绝不会背叛的强力伙伴。她对造访自己父亲的扎因和卡达诺巴当成兄长一样看待。"
+      },
+      "gallery":{
+        "usually" : {"title" : "通常装扮" ,"img":"dataset/images/gallery/缪娜.png","show":"dataset/images/role_show/缪娜.png" }
+      }
+    },
+    {
+      "name" : "巴西尼",
+      "type" : "dark",
+      "debut" : "11",
+      "thumbnail" : "dataset/images/thumbnail/巴西尼.png",
+      "role":{
+        "show" : "dataset/images/role_show/巴西尼.png"
+      },
+      "data":{
+        "glory" : "机动骑士",
+        "style" :{
+          "atk":"6",
+          "brk":"8",
+          "dex":"8",
+          "def":"3",
+          "ast":"2",
+          "ctr":"5"
+        },
+        "evaluation":"高速导弹"
+      },
+      "info":{
+        "star": "5",
+        "name": "巴西尼",
+        "type": "暗",
+        "sex": "男",
+        "country": "沙漠地带",
+        "category" : "圣石的追忆",
+        "height" : "172cm",
+        "weight" : "61cm",
+        "birthday": "6月1日",
+        "constellation" : "暗魔龙之月",
+        "blood" : "Kn型",
+        "like" : "有必要的事情",
+        "interest": "保养武器",
+        "describe" : "圣教骑士团的训练生。一直都是孑然一身的他被瓦吉那欧看中后找到了自己的存在感，于是作为间谍加入了骑士团。但是遇到卡农后，认为她才是值得信赖的人就改变了主意。为了卡农和圣教骑士团而战。"
+      },
+      "gallery":{
+        "usually" : {"title" : "通常装扮" ,"img":"dataset/images/gallery/巴西尼.png","show":"dataset/images/role_show/巴西尼.png" }
+      }
+    },
+    {
+      "name" : "阿哈特",
+      "type" : "wind",
+      "debut" : "12",
+      "thumbnail" : "dataset/images/thumbnail/阿哈特.png",
+      "role":{
+        "show" : "dataset/images/role_show/阿哈特.png"
+      },
+      "data":{
+        "glory" : "七斗术师",
+        "style" :{
+          "atk":"5",
+          "brk":"4",
+          "dex":"5",
+          "def":"8",
+          "ast":"2",
+          "ctr":"5"
+        },
+        "evaluation":"主力防守"
+      },
+      "info":{
+        "star": "5",
+        "name": "阿哈特",
+        "type": "风",
+        "sex": "女",
+        "country": "失落之蓝",
+        "category" : "圣石的追忆",
+        "height" : "154cm",
+        "weight" : "42cm",
+        "birthday": "8月6日",
+        "constellation" : "风迅艇之月",
+        "blood" : "Kn型",
+        "like" : "索尔",
+        "interest": "吃饭",
+        "describe" : "『维达十戒众』排行“第八”的少女。战斗之外的时刻，从不离开给与自己生存希望的领袖·索尔身边片刻。因为是战争孤儿所以非常害怕饿肚子，甚至说出「比起痛苦和悲伤还是饿肚子最难受」之类的话。"
+      },
+      "gallery":{
+        "usually" : {"title" : "通常装扮" ,"img":"dataset/images/gallery/阿哈特.png","show":"dataset/images/role_show/阿哈特.png" },
+        "swimwear" : {"title" : "泳装装扮" ,"img":"dataset/images/gallery/阿哈特_泳装.png","show":"dataset/images/role_show/阿哈特_泳装.png" },
+        "conviction":{"title" : "真理念装" ,"img":"dataset/images/gallery/阿哈特_念装.png","show":"dataset/images/role_show/阿哈特_念装.png" }
+      }
+    },
+    {
+      "name" : "菲亚",
+      "type" : "thunder",
+      "debut" : "13",
+      "thumbnail" : "dataset/images/thumbnail/菲亚.png",
+      "role":{
+        "show" : "dataset/images/role_show/菲亚.png"
+      },
+      "data":{
+        "glory" : "香幻术师",
+        "style" :{
+          "atk":"7",
+          "brk":"8",
+          "dex":"6",
+          "def":"5",
+          "ast":"3",
+          "ctr":"4"
+        },
+        "evaluation":"强力雷法"
+      },
+      "info":{
+        "star": "5",
+        "name": "菲亚",
+        "type": "雷",
+        "sex": "女",
+        "country": "失落之蓝",
+        "category" : "圣石的追忆",
+        "height" : "163cm",
+        "weight" : "50cm",
+        "birthday": "11月9日",
+        "constellation" : "雷狮兽之月",
+        "blood" : "Qe型",
+        "like" : "找乐子",
+        "interest": "占卜、欺负阿哈特",
+        "describe" : "『维达十戒众』排行“第四”的少女。是少数民族黑暗精灵的出身，但是很少谈及自己的身份及过往。不但任性而且喜欢把快乐建立在他人痛苦上，据说只有在占卜的时候才不会说谎。"
+      },
+      "gallery":{
+        "usually" : {"title" : "通常装扮" ,"img":"dataset/images/gallery/菲亚.png" ,"show":"dataset/images/role_show/菲亚.png"}
+      }
+    },
+    {
+      "name" : "诺因",
+      "type" : "dark",
+      "debut" : "14",
+      "thumbnail" : "dataset/images/thumbnail/诺因.png",
+      "role":{
+        "show" : "dataset/images/role_show/诺因.png"
+      },
+      "data":{
+        "glory" : "爆鬼戒師",
+        "style" :{
+          "atk":"6",
+          "brk":"7",
+          "dex":"6",
+          "def":"6",
+          "ast":"1",
+          "ctr":"4"
+        },
+        "evaluation":"肉盾输出"
+      },
+      "info":{
+        "star": "5",
+        "name": "诺因",
+        "type": "暗",
+        "sex": "男",
+        "country": "失落之蓝",
+        "category" : "圣石的追忆",
+        "height" : "220cm",
+        "weight" : "120cm",
+        "birthday": "6月10日",
+        "constellation" : "暗魔龙之月",
+        "blood" : "Ki型",
+        "like" : "简单易懂的事情",
+        "interest": "吵架",
+        "describe" : "“维达十戒众”排行第九的男性。有着超于常人的容貌和身体能力，但是一切记忆和知识都没有。虽然很重视伙伴，但是在战斗中没有逼入绝境就不会出手救人，有着自己独特的价值观。"
+      },
+      "gallery":{
+        "usually" : {"title" : "通常装扮" ,"img":"dataset/images/gallery/诺因.png","show":"dataset/images/role_show/诺因.png" },
+        "conviction":{"title" : "真理念装" ,"img":"dataset/images/gallery/诺因_念装.png","show":"dataset/images/role_show/诺因_念装.png" }
+      }
+    },
+    {
+      "name" : "芙尤丽",
+      "type" : "fire",
+      "debut" : "15",
+      "thumbnail" : "dataset/images/thumbnail/芙尤丽.png",
+      "role":{
+        "show" : "dataset/images/role_show/芙尤丽.png"
+      },
+      "data":{
+        "glory" : "咒炮术师",
+        "style" :{
+          "atk":"5",
+          "brk":"4",
+          "dex":"4",
+          "def":"4",
+          "ast":"5",
+          "ctr":"4"
+        },
+        "evaluation":"活跃于各大材料本"
+      },
+      "info":{
+        "star": "5",
+        "name": "芙尤丽",
+        "type": "火",
+        "sex": "女",
+        "country": "失落之蓝",
+        "category" : "圣石的追忆",
+        "height" : "155cm",
+        "weight" : "42cm",
+        "birthday": "10月24日",
+        "constellation" : "火皇穹之月",
+        "blood" : "Kn型",
+        "like" : "安静的时间",
+        "interest": "占卜、瞑想",
+        "describe" : "“维达十戒众”排行第五的少女。是绵津见内有名的咒术师的家世，本来有着美好的未来，却因为受到侵略开始逃亡。对世界的正义感到绝望，因此精研咒术，得到了压倒性的力量。"
+      },
+      "gallery":{
+        "usually" : {"title" : "通常装扮" ,"img":"dataset/images/gallery/芙尤丽.png" ,"show":"dataset/images/role_show/芙尤丽.png"}
+      }
+    },
+    {
+      "name" : "兹布娅",
+      "type" : "light",
+      "debut" : "16",
+      "thumbnail" : "dataset/images/thumbnail/兹布娅.png",
+      "role":{
+        "show" : "dataset/images/role_show/兹布娅.png"
+      },
+      "data":{
+        "glory" : "双刀术师",
+        "style" :{
+          "atk":"7",
+          "brk":"7",
+          "dex":"7",
+          "def":"2",
+          "ast":"4",
+          "ctr":"3"
+        },
+        "evaluation":"伪水双"
+      },
+      "info":{
+        "star": "5",
+        "name": "兹布娅",
+        "type": "光",
+        "sex": "女",
+        "country": "失落之蓝",
+        "category" : "圣石的追忆",
+        "height" : "167cm",
+        "weight" : "57cm",
+        "birthday": "7月20日",
+        "constellation" : "光摇笼之月",
+        "blood" : "Qe型",
+        "like" : "蔷薇之外的美丽事物",
+        "interest": "磨练自己",
+        "describe" : "“维达十戒众”排行第七的女性，对救过自己性命的亚乌拉斯有着复杂的情感。将美丽和绚烂作为信条，喜欢收集美丽的事物，但是偏偏对蔷薇过敏很郁闷。"
+      },
+      "gallery":{
+        "usually" : {"title" : "通常装扮" ,"img":"dataset/images/gallery/兹布娅.png","show":"dataset/images/role_show/兹布娅.png" }
+      }
+    },
+    {
+      "name" : "乌兹玛",
+      "type" : "wind",
+      "debut" : "17",
+      "thumbnail" : "dataset/images/thumbnail/乌兹玛.png",
+      "role":{
+        "show" : "dataset/images/role_show/乌兹玛.png"
+      },
+      "data":{
+        "glory" : "念动师",
+        "style" :{
+          "atk":"6",
+          "brk":"5",
+          "dex":"5",
+          "def":"8",
+          "ast":"2",
+          "ctr":"4"
+        },
+        "evaluation":"高贵的风念动"
+      },
+      "info":{
+        "star": "5",
+        "name": "乌兹玛",
+        "type": "风",
+        "sex": "女",
+        "country": "沙漠地带",
+        "category" : "圣石的追忆",
+        "height" : "168cm",
+        "weight" : "48cm",
+        "birthday": "8月9日",
+        "constellation" : "风迅艇之月",
+        "blood" : "Pa型",
+        "like" : "花的棉毛",
+        "interest": "入浴（洗澡时间长）",
+        "describe" : "沙漠地带出身的著名占卜师。身体能力很弱，但是却能预知别人的命运。在真正理解自己的能力之前，都是随口说出别人的事情，人们相当害怕。"
+      },
+      "gallery":{
+        "usually" : {"title" : "通常装扮" ,"img":"dataset/images/gallery/乌兹玛.png","show":"dataset/images/role_show/乌兹玛.png" },
+        "conviction":{"title" : "真理念装" ,"img":"dataset/images/gallery/乌兹玛_念装.png","show":"dataset/images/role_show/乌兹玛_念装.png" }
+      }
+    },
+    {
+      "name" : "泽恩",
+      "type" : "water",
+      "debut" : "18",
+      "thumbnail" : "dataset/images/thumbnail/泽恩.png",
+      "role":{
+        "show" : "dataset/images/role_show/泽恩.png"
+      },
+      "data":{
+        "glory" : "刀剑术师",
+        "style" :{
+          "atk":"5",
+          "brk":"5",
+          "dex":"5",
+          "def":"3",
+          "ast":"3",
+          "ctr":"4"
+        },
+        "evaluation":"圣石之耻"
+      },
+      "info":{
+        "star": "5",
+        "name": "泽恩",
+        "type": "水",
+        "sex": "男",
+        "country": "失落之蓝",
+        "category" : "圣石的追忆",
+        "height" : "183cm",
+        "weight" : "78cm",
+        "birthday": "9月3日",
+        "constellation" : "水冰狼之月",
+        "blood" : "Kn型",
+        "like" : "妻子和女儿",
+        "interest": "冥想",
+        "describe" : "“十戒众”排行第十的男性。他祈祷着只要能找到“真理”，就能找回死去的妻子和女儿。他这种疯狂般的信念，甚至打动了谁也请不动的“传说中的锻冶师”的心。"
+      },
+      "gallery":{
+        "usually" : {"title" : "通常装扮" ,"img":"dataset/images/gallery/泽恩.png","show":"dataset/images/role_show/泽恩.png" }
+      }
+    },
+    {
+      "name" : "索尔",
+      "type" : "dark",
+      "debut" : "19",
+      "thumbnail" : "dataset/images/thumbnail/索尔.png",
+      "role":{
+        "show" : "dataset/images/role_show/索尔.png"
+      },
+      "data":{
+        "glory" : "真理术师",
+        "style" :{
+          "atk":"7",
+          "brk":"5",
+          "dex":"6",
+          "def":"5",
+          "ast":"5",
+          "ctr":"2"
+        },
+        "evaluation":"法系输出"
+      },
+      "info":{
+        "star": "5",
+        "name": "索尔",
+        "type": "暗",
+        "sex": "男",
+        "country": "失落之蓝",
+        "category" : "圣石的追忆",
+        "height" : "179cm",
+        "weight" : "71cm",
+        "birthday": "12月31日",
+        "constellation" : "暗梦楼之月",
+        "blood" : "Pa型",
+        "like" : "伟人的名言",
+        "interest": "读书（尤其是哲学书）",
+        "describe" : "“维达十戒众”的首领，为了拯救被欺凌之地“失落之蓝”而奋斗的男人。通过异次元空间获得了巨大的力量，但代价是缺失了恐怖的感觉。他自知情感的缺失，因此对自己对伙伴都用戒律来约束。"
+      },
+      "gallery":{
+        "usually" : {"title" : "通常装扮" ,"img":"dataset/images/gallery/索尔.png" ,"show":"dataset/images/role_show/索尔.png"}
+      }
+    },
+    {
+      "name" : "奥莱伊恩",
+      "type" : "thunder",
+      "debut" : "20",
+      "thumbnail" : "dataset/images/thumbnail/奥莱伊恩.png",
+      "role":{
+        "show" : "dataset/images/role_show/奥莱伊恩.png"
+      },
+      "data":{
+        "glory" : "狮子王",
+        "style" :{
+          "atk":"7",
+          "brk":"7",
+          "dex":"5",
+          "def":"4",
+          "ast":"0",
+          "ctr":"3"
+        },
+        "evaluation":"主力输出"
+      },
+      "info":{
+        "star": "5",
+        "name": "奥莱伊恩",
+        "type": "雷",
+        "sex": "男",
+        "country": "格里特达伊克",
+        "category" : "圣石的追忆",
+        "height" : "198cm",
+        "weight" : "120cm",
+        "birthday": "5月2日",
+        "constellation" : "雷鸣帝之月",
+        "blood" : "Ki型",
+        "like" : "称霸",
+        "interest": "寻找故事和史书等书籍",
+        "describe" : "格里特达伊克的皇帝。被称为狮子王而且勇猛豪放。虽然身居王位但仍然亲自上战场，作为武者有着无与伦比的力量。是个兼备炽热的野心和冷静的大将，心中埋藏着巨大的野心。"
+      },
+      "gallery":{
+        "usually" : {"title" : "通常装扮" ,"img":"dataset/images/gallery/奥莱伊恩.png" ,"show":"dataset/images/role_show/奥莱伊恩.png"}
+      }
+    }
+    ]
+}

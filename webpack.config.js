@@ -1,45 +1,78 @@
 //const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const VueLoaderPlugin = require('vue-loader/lib/plugin');
+const ExtractPlugin = require('extract-text-webpack-plugin');
 
-module.exports = {
-    mode: "development",
+const extractCSS = new ExtractPlugin('assets/css/[name]_[hash:6].css');
 
-    entry:  __dirname + "/src/script/main.js",     //已多次提及的唯一入口文件
+const IS_DEV = true;
+
+const config = {
+    mode : 'development',
+    entry:  __dirname + "/src/script/main.js",     //唯一入口文件
     output: {
         path: __dirname + "/dist",          //打包后的文件存放的地方
         filename: "bundle.js"               //打包后输出文件的文件名
     },
-
-    devtool: 'eval-source-map',
     devServer: {
-        contentBase: "./dist",               //本地服务器所加载的页面所在的目录
         historyApiFallback: true,           //不跳转
         inline: true                        //实时刷新
     },
-
     module:{
         rules:[
             {
-                test: /\.css$/,
-                use: [
+                test: /\.vue$/,
+                use:[
                     {
-                        loader: "style-loader"
-                    }, {
-                        loader: "css-loader",
-                        options: {
-                            modules: true,                                      // 指定启用css modules
-                            localIdentName: '[name]__[local]--[hash:base64:5]'   // 指定css的类名格式
-                        }
+                        loader: "vue-loader"
                     }
                 ]
             }
         ]
     },
-
     plugins: [
+        new VueLoaderPlugin(),
         new HtmlWebpackPlugin({
             template: __dirname + "/src/index_tmp.html",
-            filename:'../index.html'
+            filename:'../index.html'                            //根目录入口页面名称
         })
     ],
+    resolve: {
+        alias: {
+            'vue$': 'vue/dist/vue.esm.js'                       //内部为正则表达式  vue结尾的
+        }
+    }
 };
+
+if(IS_DEV){
+    config.mode = 'development';
+    config.output.filename = '[name].bundle.js';
+    config['devtool'] = 'eval-source-map';             //调试设置
+    config.module.rules.push(
+        {
+            test: /\.css$/,
+            use:['style-loader', 'css-loader']
+        }
+        );
+}else{
+    config.mode = 'production';
+    config.output.filename = '[name]_[hash].bundle.js';
+    config.module.rules.push(
+        {
+            test: /\.css$/,
+            use: extractCSS.extract({
+                use: [
+                    {
+                        loader: 'css-loader',
+                        options:{
+                            modules: true
+                        }
+                    }
+                ]
+            })
+        }
+    );
+    config.plugins.push(extractCSS);
+}
+
+module.exports = config;
